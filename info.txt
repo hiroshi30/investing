@@ -1,0 +1,13 @@
+2
+
+BANK 1
+DEPOSIT, 7.0, 2
+
+CRYPTOCURRENCY 7
+XRP, Ripple, xrp, 0.52976, 8.0, 4
+ATOM, Cosmos, cosmos, 9.5267, 1.5, 8
+MATIC, Polygon, polygon, 0.775525, 2.0, 8
+BTC, Bitcoin, bitcoin, 41818.86, 3.0, 8
+ETH, Ethereum, ethereum, 2269.57, 6.0, 8
+MINA, MINA, mina, 1.0913, 0.0, 0
+USDT, Tether USDt, tether, 1.0, 0.0, 0
