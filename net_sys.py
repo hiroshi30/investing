@@ -59,11 +59,11 @@ def load_icons(info):
                 download_icon(coin, info)
 
 
-def get_price(short_name):
-    data = parse_html(HTX_url.format(short_name))
-    start_index = data.index('<span class="price color-down ">')
-    print(start_index)
-    end_index = start_index + 1
-    while data[end_index] != '<':
-        end_index += 1
-    return float(data[start_index: end_index])
+# def get_price(short_name):
+#     data = parse_html(HTX_url.format(short_name))
+#     start_index = data.index('<span class="price color-down ">')
+#     print(start_index)
+#     end_index = start_index + 1
+#     while data[end_index] != '<':
+#         end_index += 1
+#     return float(data[start_index: end_index])

@@ -13,7 +13,7 @@ net_sys.load_icons(file_sys.info)
 print(file_sys.balance)
 print(file_sys.info)
 
-print(net_sys.get_price('btc'))
+# print(net_sys.get_price('btc'))
 
 window_width = 500
 window_height = 500
